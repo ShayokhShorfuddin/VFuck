@@ -87,8 +87,8 @@ fn main() {
 				position = table[position]
 			}
 		}
-
-		// Left brace ([)
+					
+		// Right brace (])
 		if current_instruction == "]" {
 			if memory[pointer] != 0 {
 				position = table[position]
